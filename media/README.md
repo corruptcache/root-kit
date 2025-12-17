@@ -1,21 +1,21 @@
-#🕹️ Emulation & Media Management
-This directory contains the automation pipelines for optimizing and maintaining your ROM library. These scripts are designed to be run inside the Exodia Toolkit container or on a Linux host with mame-tools and dolphin-emu installed.
-📂 The Arsenal
-Tool
-Filename
-Description
-CHD Manager
-chd_manager.sh
-The Heavy Lifter. Recursively converts, verifies, and repairs optical media (PS1, PS2, Saturn, etc).
-RVZ Manager
-rvz_manager.sh
-The Specialist. Manages GameCube/Wii compression (ISO -> RVZ) using Dolphin.
+# 🕹️ Emulation & Media Management
 
-# 💿 CHD Manager
-Supported Systems: PS1, PS2, Sega CD, Saturn, Dreamcast, PC Engine CD.
-Auto-Excludes: GameCube, Wii, Wii U, Xbox.
+This directory contains the automation pipelines for optimizing and maintaining your ROM library. These scripts are designed to be run inside the **Exodia Toolkit** container or on a Linux host with `mame-tools` and `dolphin-emu` installed.
 
-## Usage
+## 📂 The Arsenal
+
+| Tool | Filename | Description |
+| :--- | :--- | :--- |
+| **CHD Manager** | `chd_manager.sh` | **The Heavy Lifter.** Recursively converts, verifies, and repairs optical media (PS1, PS2, Saturn, etc). |
+| **RVZ Manager** | `rvz_manager.sh` | **The Specialist.** Manages GameCube/Wii compression (ISO -> RVZ) using Dolphin. |
+
+---
+
+## 💿 CHD Manager
+**Supported Systems:** PS1, PS2, Sega CD, Saturn, Dreamcast, PC Engine CD.  
+**Auto-Excludes:** GameCube, Wii, Wii U, Xbox.
+
+### Usage
 ```bash
 ./chd_manager.sh -d <TARGET_DIR> [OPTIONS]
 ```
