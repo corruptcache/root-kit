@@ -15,10 +15,14 @@
 ### 📼 Media & Emulation (`/media`)
 Tools to optimize and manage large media libraries (ROMs, Movies, etc).
 
-| Tool | Description |
-| :--- | :--- |
-| **`chd_manager.sh`** | Recursively converts ISO/CUE to CHD with verification & auto-repair. |
-| **`rvz_manager.sh`** | Manages GameCube/Wii compression (ISO -> RVZ) via Dolphin. |
+| Script | Description | Dependencies |
+| :--- | :--- | :--- |
+| [`chd_manager.sh`](media/emulation/chd_manager.sh) | Total lifecycle management for CHD files (Convert, Revert, Repair, Cleanup). | chdman |
+| [`chd_manager.sh`](media/emulation/nsz_manager.sh) | Total lifecycle management for CHD files (Convert, Revert, Repair, Cleanup). | python3 |
+| [`rvz_manager.sh`](media/emulation/rvz_manager.sh) | Total lifecycle management for GameCube/Wii RVZ files. | dolphin-tool |
+| [`trim_manager.sh`](media/emulation/trim_manager.sh) | Total lifecycle management for miscellaneous formats. | 7z, python3 |
+| [`xiso_manager.sh`](media/emulation/xiso_manager.sh) | Total lifecycle management for Xbox ISO files. | extract-xiso |
+| [`zip_manager.sh`](media/emulation/zip_manager.sh) | Standard Archiving: Reversible compression using 7-Zip. | 7z |
 
 ### 💾 Backups & Data (`/backups`)
 Scripts to secure critical data off-site.

@@ -1,10 +1,9 @@
 #!/bin/bash
-# ==============================================================================
-#  NSZ MANAGER (Nintendo Switch)
-#  Tool: nsz (Python) | Target: .nsp -> .nsz, .xci -> .xcz
-# ==============================================================================
+# @name: chd_manager.sh
+# @description: Total lifecycle management for CHD files (Convert, Revert, Repair, Cleanup).
+# @dependencies: python3
 
-LOG_FILE="/var/log/sarcophagus_nsz.log"
+LOG_FILE="/var/log/nsz_manager.log"
 DRY_RUN=0
 TARGET_DIR=""
 MODE="convert" # convert, revert, cleanup

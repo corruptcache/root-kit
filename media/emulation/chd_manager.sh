@@ -1,11 +1,7 @@
 #!/bin/bash
-
-# ==============================================================================
-# SCRIPT: chd_manager.sh
-# AUTHOR: Corrupt Cache
-# LICENSE: MIT
-# DESCRIPTION: Total lifecycle management for CHD files (Convert, Revert, Repair, Cleanup).
-# ==============================================================================
+# @name: chd_manager.sh
+# @description: Total lifecycle management for CHD files (Convert, Revert, Repair, Cleanup).
+# @dependencies: chdman
 
 # --- DEFAULTS ---
 TARGET_DIR=""

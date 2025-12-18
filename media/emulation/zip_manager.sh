@@ -1,8 +1,7 @@
 #!/bin/bash
-# ==============================================================================
-#  ZIP MANAGER (Carts & Vita)
-#  Standard Archiving: Reversible compression using 7-Zip.
-# ==============================================================================
+# @name: zip_manager.sh
+# @description: Standard Archiving: Reversible compression using 7-Zip.
+# @dependencies: 7z
 
 LOG_FILE="/var/log/sarcophagus_zip.log"
 DRY_RUN=0

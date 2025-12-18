@@ -1,8 +1,7 @@
 #!/bin/bash
-# ==============================================================================
-#  TRIM MANAGER (PS3, 3DS, Vita)
-#  Purpose: Extract, Trim, and Archive miscellaneous formats.
-# ==============================================================================
+# @name: trim_manager.sh
+# @description: Total lifecycle management for miscellaneous formats.
+# @dependencies: 7z, python3
 
 LOG_FILE="/var/log/sarcophagus_trim.log"
 DRY_RUN=0

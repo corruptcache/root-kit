@@ -1,11 +1,7 @@
 #!/bin/bash
-
-# ==============================================================================
-# SCRIPT: rvz_manager.sh
-# AUTHOR: Corrupt Cache
-# LICENSE: MIT
-# DESCRIPTION: Total lifecycle management for GameCube/Wii RVZ files.
-# ==============================================================================
+# @name: rvz_manager.sh
+# @description: Total lifecycle management for GameCube/Wii RVZ files.
+# @dependencies: dolphin-tool
 
 # --- DEFAULTS ---
 TARGET_DIR=""

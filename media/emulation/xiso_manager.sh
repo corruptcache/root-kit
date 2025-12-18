@@ -1,8 +1,7 @@
 #!/bin/bash
-# ==============================================================================
-#  XISO MANAGER (Original Xbox)
-#  Tool: extract-xiso | Purpose: Remove dummy padding (0x00)
-# ==============================================================================
+# @name: xiso_manager.sh
+# @description: Total lifecycle management for Xbox ISO files.
+# @dependencies: extract-xiso
 
 LOG_FILE="/var/log/sarcophagus_xbox.log"
 DRY_RUN=0
