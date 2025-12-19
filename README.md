@@ -1,8 +1,8 @@
-# 🛡️ Root Kit
+# 🛡️ Cache's Custom Scripts
 
-**The Automaton for the Exodia Homelab.**
+**"Running rm -rf so you don't have to."**
 
-> *A centralized arsenal of Bash scripts for server hardening, media automation, backups, and infrastructure management on Unraid/Linux.*
+> *A centralized arsenal of scripts for server hardening, media automation, backups, and infrastructure management on Unraid/Linux.*
 
 ![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
 ![Platform](https://img.shields.io/badge/platform-Unraid%20%7C%20Linux-blue?style=flat-square)
@@ -19,6 +19,7 @@ Tools to optimize and manage large media libraries (ROMs, Movies, etc).
 | :--- | :--- | :--- |
 | [`chd_manager.sh`](media/emulation/chd_manager.sh) | Total lifecycle management for CHD files (Convert, Revert, Repair, Cleanup). | chdman |
 | [`chd_manager.sh`](media/emulation/nsz_manager.sh) | Total lifecycle management for CHD files (Convert, Revert, Repair, Cleanup). | python3 |
+| [`rom_matcher.sh`](media/emulation/rom_matcher.sh) | Generates strict "No-Intro" regex strings from a list of game titles to filter junk/demos. | sed |
 | [`rvz_manager.sh`](media/emulation/rvz_manager.sh) | Total lifecycle management for GameCube/Wii RVZ files. | dolphin-tool |
 | [`trim_manager.sh`](media/emulation/trim_manager.sh) | Total lifecycle management for miscellaneous formats. | 7z, python3 |
 | [`xiso_manager.sh`](media/emulation/xiso_manager.sh) | Total lifecycle management for Xbox ISO files. | extract-xiso |
